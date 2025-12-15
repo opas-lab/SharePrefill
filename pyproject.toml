@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shareprefill"
+version = "0.1.0"
+description = "SharePrefill attention integration for Hugging Face decoder-only models."
+readme = "README.md"
+requires-python = "==3.10"
+dependencies = [
+    "torch==2.5.1",
+    "transformers==4.51.3",
+    "einops>=0.8.1",
+    "triton>=3.1.0",
+]
+
+[project.optional-dependencies]
+flash-attn = [
+    "flash-attn>=2.6.1",
+]
+
+[tool.setuptools]
+license-files = ["LICENSE"]
+
+[tool.setuptools.packages.find]
+include = ["shareprefill*"]

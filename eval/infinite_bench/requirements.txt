@@ -1,0 +1,12 @@
+# Core modelling stack
+torch==2.5.1
+transformers==4.51.3
+numpy>=1.24
+
+# Evaluation helpers
+evaluate>=0.4.0
+filelock>=3.13.1
+tqdm>=4.67.1
+jieba>=0.42.1
+rouge==1.0.1
+

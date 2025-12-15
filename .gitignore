@@ -1,0 +1,15 @@
+# Python build artifacts
+**/*.egg-info/
+**/.idea/
+**/.vscode/
+**/.ipynb_checkpoints/
+**/__pycache__/
+
+
+# Ignore evaluation data and result artifacts
+**/results/
+
+
+# Local convenience scripts
+**/*.local.*
+**/scripts/

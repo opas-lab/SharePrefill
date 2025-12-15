@@ -1,0 +1,11 @@
+Project: SharePrefill
+Version: 0.1.0
+Copyright (c) 2025, OPPO.
+
+This project incorporates code from the following third-party projects:
+
+- FlexPrefill — Apache License 2.0 (see `licenses/LICENSE.FLEXPREFILL`)
+- MInference — MIT License (see `licenses/LICENSE.MINFERENCE`)
+- RULER — Apache License 2.0 (see `licenses/LICENSE.RULER`)
+
+For full license texts, refer to the `licenses/` directory in this repository.
